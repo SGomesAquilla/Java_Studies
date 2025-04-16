@@ -1,1 +1,1 @@
-content studied
+CONTENTS STUDIED
