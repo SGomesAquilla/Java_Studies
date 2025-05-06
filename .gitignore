@@ -1,0 +1,90 @@
+# Compiled Java class files
+**/bin/
+
+# IntelliJ IDEA project files
+**/.idea/
+**/*.iml
+
+# Eclipse project files
+**/.classpath
+**/.project
+**/.settings/
+
+# NetBeans project files
+**/nbproject/
+
+# VS Code specific files and folders (consider keeping if sharing workspace settings)
+**/.vscode/
+
+# Executable JAR and WAR files
+**/*.jar
+**/*.war
+
+# Spring Boot specific
+**/target/
+
+# Maven specific
+**/mvnw
+**/mvnw.cmd
+**/.mvn/
+
+# Gradle specific
+**/build/
+**/.gradle/
+**/gradle-app.setting
+**/gradle-wrapper.properties
+**/gradle-wrapper.jar
+
+# Log files
+**/*.log
+
+# Temporary files and directories
+**/tmp/
+**/temp/
+**/.tmp/
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# Azure specific (can be expanded as you use more Azure services)
+**/azure-pipelines.yml
+**/deployment/
+**/.azure/
+
+# Environment files (sensitive information!)
+**/.env
+**/*.env.local
+**/*.env.*
+!**/.env.example # Include this to show the structure of your env files
+
+# Dependency directories (if you ever commit them, which is generally not recommended)
+**/lib/
+**/dependencies/
+
+# IDE backup files
+**/*~
+**/*.swp
+
+# Other build output directories (add as needed)
+**/out/
+
+# Ignore coverage reports
+**/coverage/
+**/jacoco.xml
+**/build/reports/
+
+# Docker related (if you use Docker)
+**/Dockerfile.local
+**/docker-compose*.yml
+
+# Node.js related (if your Spring Boot app interacts with a frontend)
+**/node_modules/
+
+# Python related (if you have any Python scripts)
+**/.pyc
+**/__pycache__/
+
+# Keystore files (sensitive!)
+**/*.jks
+**/*.keystore
